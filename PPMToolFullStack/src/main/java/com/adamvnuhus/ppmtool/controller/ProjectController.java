@@ -21,6 +21,7 @@ import javax.validation.Valid;
  */
 @RestController
 @RequestMapping("/api/project")
+@CrossOrigin
 public class ProjectController {
 
     @Autowired
